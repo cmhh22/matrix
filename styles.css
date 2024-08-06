@@ -74,9 +74,12 @@ p {
 
 #message {
     margin-top: 20px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
     color: #8a8981;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
     opacity: 0;
     transition: opacity 1s;
 }
@@ -97,5 +100,9 @@ p {
     .pill {
         padding: 10px 20px;
         font-size: 0.9em;
+    }
+
+    #message {
+        font-size: 1em;
     }
 }
